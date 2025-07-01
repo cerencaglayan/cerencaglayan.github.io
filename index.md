@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Ceren Çağlayan – Backend Developer
 ---
 
 
