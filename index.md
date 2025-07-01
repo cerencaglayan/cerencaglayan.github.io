@@ -8,7 +8,7 @@ title: Ceren Çağlayan – Backend Developer Portfolio
 I'm a backend developer focused on building scalable RESTful APIs using Java, Spring Boot, and relational databases.
 
 <h2>📄 Download My CV</h2>
-<a href="CerenCaglayan_CV.pdf" download>
+<a href="cv_guncel.pdf" download>
   <button style="padding:10px 20px; background-color:#007acc; color:white; border:none; border-radius:5px;">
     Download CV (PDF)
   </button>
