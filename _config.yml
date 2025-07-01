@@ -1,0 +1,10 @@
+title: "Ceren Çağlayan – Backend Developer"
+description: "Welcome to my portfolio! I'm a backend developer specializing in Spring Boot and REST APIs."
+theme: jekyll-theme-cayman
+github:
+  is_project_page: false
+  owner_url: https://github.com/cerencaglayan
+  owner_name: Ceren Çağlayan
+email: cer79cag@gmail.com
+linkedin_username: cerencaglayan
+show_downloads: false
