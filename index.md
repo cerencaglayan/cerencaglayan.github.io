@@ -5,7 +5,7 @@ title: Ceren Çağlayan – Backend Developer
 
 # Hi, I'm Ceren Çağlayan 👋
 
-I'm a backend developer focused on building scalable RESTful APIs using Java, Spring Boot, and relational databases.
+I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning.
 
 <div style="text-align: center; margin-top: 30px;">
   <a href="cv_guncel.pdf" download>
@@ -13,13 +13,13 @@ I'm a backend developer focused on building scalable RESTful APIs using Java, Sp
       onmouseover="this.style.backgroundColor='#2ecc71'"
       onmouseout="this.style.backgroundColor='#007acc'"
       style="
-        padding: 12px;
+        padding: 5px;
         background-color: #007acc;
         color: white;
         border: none;
-        border-radius: 30%;
+        border-radius: 40%;
         width: 160px;
-        height: 40px;
+        height: 30px;
         font-size: 14px;
         cursor: pointer;
         transition: background-color 0.3s ease;">
