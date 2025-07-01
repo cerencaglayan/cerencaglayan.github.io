@@ -17,13 +17,13 @@ I'm a backend developer focused on building scalable RESTful APIs using Java, Sp
         background-color: #007acc;
         color: white;
         border: none;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
+        border-radius: 30%;
+        width: 160px;
+        height: 40px;
         font-size: 14px;
         cursor: pointer;
         transition: background-color 0.3s ease;">
-      CV
+      My Resume (PDF)
     </button>
   </a>
 
