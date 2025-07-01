@@ -9,18 +9,21 @@ I'm a backend developer focused on building scalable RESTful APIs using Java, Sp
 
 <div style="text-align: center; margin-top: 30px;">
   <a href="cv_guncel.pdf" download>
-    <button style="
-      padding: 12px;
-      background-color: #007acc;
-      color: white;
-      border: none;
-      border-radius: 25%;
-      width: 100px;
-      height: 160px;
-      font-size: 14px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;">
-      My Resume
+       <button
+      onmouseover="this.style.backgroundColor='#2ecc71'"
+      onmouseout="this.style.backgroundColor='#007acc'"
+      style="
+        padding: 12px;
+        background-color: #007acc;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;">
+      CV
     </button>
   </a>
 
