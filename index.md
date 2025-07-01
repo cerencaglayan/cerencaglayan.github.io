@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ceren Çağlayan – Backend Developer Portfolio
+title: Ceren Çağlayan – Backend Developer 
 ---
 
 # Hi, I'm Ceren Çağlayan 👋
@@ -14,22 +14,25 @@ I'm a backend developer focused on building scalable RESTful APIs using Java, Sp
       background-color: #007acc;
       color: white;
       border: none;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
+      border-radius: 25%;
+      width: 100px;
+      height: 160px;
       font-size: 14px;
       cursor: pointer;
       transition: background-color 0.3s ease;">
       My Resume
     </button>
   </a>
-</div>
 
-<style>
+  <style>
   button:hover {
     background-color: #2ecc71; 
   }
 </style>
+
+</div>
+
+
 
 
 
