@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Ceren Çağlayan – Backend Developer
-# Hi, I'm Ceren Çağlayan 👋
-
-I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning.
 ---
+
+
 
 
 
