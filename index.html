@@ -9,21 +9,59 @@ layout: default
   <title>Ceren Çağlayan – Backend Developer</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <style>
-    body { font-family: 'Inter', sans-serif; padding: 30px; line-height: 1.6; }
+    body {
+      font-family: 'Inter', sans-serif;
+      padding: 30px;
+      line-height: 1.6;
+      background-color: #ffffff;
+    }
+
     h1 { font-size: 2em; }
     h2 { margin-top: 40px; }
-    a { color: #007acc; text-decoration: none; }
-    .section { margin-top: 60px; }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #2ecc71;
+    }
+
+    .navbar {
+      background: #ffffffee;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 40px;
+      text-align: right;
+    }
+
+    .navbar a {
+      margin-left: 20px;
+      color: #121a1f;
+      font-weight: bold;
+    }
+
+    .section {
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
 
-<div style="position: fixed; top: 0; right: 0; background: #ffffffee; padding: 10px 20px; border-bottom-left-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 999;">
-  <a href="cv_guncel.pdf" download style="margin-right: 15px; text-decoration: none; color: #121a1f; font-weight: bold;">Resume</a>
-  <a href="#contact" style="text-decoration: none; color: #121a1f; font-weight: bold;">Contact</a>
-    <a href="#projects" style="text-decoration: none; color: #121a1f; font-weight: bold;">Projects</a>
+<!-- 🔗 Navbar (Artık sabit değil!) -->
+<div class="navbar">
+  <a href="cv_guncel.pdf" download>Resume</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
 </div>
-
 
 <h1>Hi, I'm Ceren Çağlayan 👋</h1>
 <p>
@@ -57,7 +95,7 @@ I am a backend developer focusing on building scalable RESTful APIs using Java, 
   <ul>
     <li>GitHub: <a href="https://github.com/cerencaglayan">cerencaglayan</a></li>
     <li>LinkedIn: <a href="https://linkedin.com/in/cerencaglayan">cerencaglayan</a></li>
-    <li>Email: <a href="cer79cag@gmail.com">cer79cag@gmail.com</a></li>
+    <li>Email: <a href="mailto:cer79cag@gmail.com">cer79cag@gmail.com</a></li>
   </ul>
 </div>
 
