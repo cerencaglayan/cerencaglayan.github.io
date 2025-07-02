@@ -1,6 +1,6 @@
 title: "Hi, I'm Ceren Çağlayan 👋 "
 description: "I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning."
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate	
 github:
   is_project_page: false
   owner_url: https://github.com/cerencaglayan
