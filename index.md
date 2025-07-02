@@ -2,32 +2,18 @@
 layout: default
 ---
 
-
-
-
-
-<div style="text-align: center; margin: 30px 0;">
-  <a href="cv_guncel.pdf" download style="text-decoration: none;">
-    <button
-      onmouseover="this.style.backgroundColor='#2ecc71'"
-      onmouseout="this.style.backgroundColor='#007acc'"
-      style="
-        padding: 10px 20px;
-        background-color: #007acc;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        width: 160px;
-        height: 40px;
-        font-size: 16px;
-        font-weight: 300;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        ">
-      My Resume (PDF)
-    </button>
-  </a>
+<!-- 🌐 Navigation Bar -->
+<div style="position: fixed; top: 0; right: 0; background: #ffffffee; padding: 10px 20px; border-bottom-left-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 999;">
+  <a href="cv_guncel.pdf" download style="margin-right: 15px; text-decoration: none; color: #007acc; font-weight: bold;">Resume</a>
+  <a href="#contact" style="text-decoration: none; color: #007acc; font-weight: bold;">Contact</a>
 </div>
+
+<!-- 📄 İçerik Başlangıcı -->
+<div style="padding-top: 60px;"> <!-- Navbar'ın üzerini kapatmaması için -->
+  
+# Hi, I'm Ceren Çağlayan 👋
+
+I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning.
 
 ---
 
@@ -52,8 +38,12 @@ layout: default
 
 ---
 
+<!-- 📫 Contact Section -->
 ## 📫 Contact
+<div id="contact"></div>
 
 - GitHub: [cerencaglayan](https://github.com/cerencaglayan)  
 - LinkedIn: [linkedin.com/in/cerencaglayan](https://linkedin.com/in/cerencaglayan)  
 - Email: cer79cag@gmail.com
+
+</div>
