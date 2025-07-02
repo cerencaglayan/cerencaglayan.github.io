@@ -11,13 +11,55 @@ layout: default
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      padding: 30px;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
       line-height: 1.6;
-      background-color: #ffffff;
     }
 
-    h1 { font-size: 2em; }
+    /* 🔝 Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #121a1f;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #2ecc71;
+    }
+
+    /* 💬 Hero */
+    .hero {
+      background: linear-gradient(145deg, #1e1e1e, #2e2e2e);
+      color: white;
+      padding: 80px 40px 60px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 { font-size: 2.2em; }
     h2 { margin-top: 40px; }
+    h3 { margin-top: 20px; }
+
     a {
       color: #007acc;
       text-decoration: none;
@@ -28,23 +70,8 @@ layout: default
       color: #2ecc71;
     }
 
-    .navbar {
-      background: #ffffffee;
-      padding: 10px 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      margin-bottom: 40px;
-      text-align: right;
-    }
-
-    .navbar a {
-      margin-left: 20px;
-      color: #121a1f;
-      font-weight: bold;
-    }
-
     .section {
-      margin-top: 80px;
+      margin-top: 60px;
       padding-top: 40px;
       border-top: 1px solid #e0e0e0;
     }
@@ -52,51 +79,73 @@ layout: default
     ul {
       margin-top: 10px;
     }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+      }
+
+      .navbar a {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
   </style>
 </head>
 <body>
 
-<!-- 🔗 Navbar (Artık sabit değil!) -->
+<!-- 🔗 NAVBAR (üstte sabit) -->
 <div class="navbar">
-  <a href="cv_guncel.pdf" download>Resume</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
+  <div><strong>Ceren Çağlayan</strong></div>
+  <div>
+    <a href="cv_guncel.pdf" download>Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
 </div>
 
-<h1>Hi, I'm Ceren Çağlayan 👋</h1>
-<p>
-I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning.
-</p>
-
-<div class="section" id="projects">
-  <h2>🚀 Projects</h2>
-
-  <h3>📌 <a href="https://github.com/cerencaglayan/blog-api">Blog API</a></h3>
-  <ul>
-    <li>RESTful Blog service built with Spring Boot</li>
-    <li>JWT Authentication, Comment System</li>
-  </ul>
-
-  <h3>📌 <a href="https://github.com/cerencaglayan/ecommerce-api">E-commerce API</a></h3>
-  <ul>
-    <li>Product, Order, Cart management with role-based access</li>
-    <li>PostgreSQL + Spring Security</li>
-  </ul>
-
-  <h3>📌 <a href="https://github.com/cerencaglayan/task-manager">Task Manager API</a></h3>
-  <ul>
-    <li>Built with Node.js and MongoDB</li>
-    <li>User login, CRUD for tasks, Dockerized setup</li>
-  </ul>
+<!-- 💡 HERO SECTION -->
+<div class="hero">
+  <h1>Hi, I'm Ceren Çağlayan 👋</h1>
+  <p>I am a backend developer focusing on building scalable RESTful APIs using Java, Spring Boot, and relational databases. I also have projects in robotics and machine learning.</p>
 </div>
 
-<div class="section" id="contact">
-  <h2>📫 Contact</h2>
-  <ul>
-    <li>GitHub: <a href="https://github.com/cerencaglayan">cerencaglayan</a></li>
-    <li>LinkedIn: <a href="https://linkedin.com/in/cerencaglayan">cerencaglayan</a></li>
-    <li>Email: <a href="mailto:cer79cag@gmail.com">cer79cag@gmail.com</a></li>
-  </ul>
+<!-- 📄 MAIN CONTENT -->
+<div class="container">
+
+  <div class="section" id="projects">
+    <h2>🚀 Projects</h2>
+
+    <h3>📌 <a href="https://github.com/cerencaglayan/blog-api">Blog API</a></h3>
+    <ul>
+      <li>RESTful Blog service built with Spring Boot</li>
+      <li>JWT Authentication, Comment System</li>
+    </ul>
+
+    <h3>📌 <a href="https://github.com/cerencaglayan/ecommerce-api">E-commerce API</a></h3>
+    <ul>
+      <li>Product, Order, Cart management with role-based access</li>
+      <li>PostgreSQL + Spring Security</li>
+    </ul>
+
+    <h3>📌 <a href="https://github.com/cerencaglayan/task-manager">Task Manager API</a></h3>
+    <ul>
+      <li>Built with Node.js and MongoDB</li>
+      <li>User login, CRUD for tasks, Dockerized setup</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>📫 Contact</h2>
+    <ul>
+      <li>GitHub: <a href="https://github.com/cerencaglayan">cerencaglayan</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/cerencaglayan">cerencaglayan</a></li>
+      <li>Email: <a href="mailto:cer79cag@gmail.com">cer79cag@gmail.com</a></li>
+    </ul>
+  </div>
+
 </div>
 
 </body>
